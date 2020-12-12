@@ -1,0 +1,117 @@
+html,body{
+  margin: 0;
+  margin-top: 0;
+  border: 0;
+  padding: 0;
+}
+.MainContainer{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #59b1d9;
+
+
+}
+.MainContainer > h1{
+
+  padding: 10px;
+  text-align: center;
+  font-size: 3em;
+  font-style: italic;
+  font-family: 'Sofia';
+  color: White;
+  grid-column: 1;
+  text-shadow: 3px 3px #8fb9cc;
+
+
+}
+.MainContainer > nav{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  color: white;
+  font-family: 'Sofia';
+
+}
+.MainContainer > nav > .Subscribe{
+  display: grid;
+  grid-template-columns: 1fr,1fr,1fr;
+  text-align: right;
+
+
+}
+.MainContainer > nav > .Subscribe > .SubscribeButton{
+  grid-column-start: 3;
+  border: 2px solid white;
+  border-radius: 12px;
+  text-align: center;
+}
+.ContentContainer{
+  margin: 30px;
+  padding: 20px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-gap: 10px;
+}
+.ContentContainer > .Receipe1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: white;
+}
+.Receipe1{
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-gap: 10px;
+  grid-template-rows: repeat(8,5vw);
+}
+.Heading3{
+  grid-column: 1/3;
+  text-align: center;
+}
+.imagetest{
+  padding: 0;
+  margin: 0;
+  grid-column: 1/2;
+  grid-row: 2/8;
+  background-image: url(Julabjamun.jpg);
+  background-size: cover;
+}
+
+.FooterContainer{
+  display: grid;
+  grid-template-columns: 1fr,1fr,1fr,1fr;
+  background-color: #59b1d9;
+  left: 0;
+  margin: 0;
+  bottom: 0;
+  padding: 0;
+  width: 100%;
+  color: white;
+  font-style: italic;
+  font-family: 'Sofia';
+}
+.FooterContainer > .FollowUs{
+
+  grid-column: 1/2;
+  padding: 10px;
+  text-align: left;
+}
+.FooterContainer > .Facebook{
+
+  grid-column: 2/3;
+  text-align: left;
+  padding: 10px;
+}
+.FooterContainer > .Twitter{
+
+  grid-column: 3/4;
+  text-align: left;
+  padding: 10px;
+
+}
+.FooterContainer > .Instagram{
+
+  grid-column: 4/5;
+  text-align: left;
+  padding: 10px;
+}
