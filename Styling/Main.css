@@ -1,9 +1,9 @@
 
 /*@import url("Mobile.css") screen and (max-width: 767px);
 @import url("Tab.css")screen and (max-width: 1024px) and (min-width:768px);*/
-@import url("Mobile.css");
-@import url("Tab.css");
-@import url("Laptop.css");
+@import "Mobile.css";
+@import "Tab.css";
+@import "Laptop.css";
 
 html{
   margin: 0;
