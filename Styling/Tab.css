@@ -1,38 +1,41 @@
-@media only screen and (max-width: 1024px) and (min-width:768px){
+@media only screen and (max-width: 1024px) and (min-width:768px) {
 
   html,body {
       font-size: 1em;
    }
-  .MainContainer > nav{
+
+  .MainContainer > nav {
      display: grid;
      grid-template-columns: repeat(2, 1fr);
      text-align: center;
   }
- .MainContainer > nav > .Home{
-  grid-column: 1/2;
- }
- .MainContainer > nav > .Details{
-  grid-column: 2/3;
- }
- .MainContainer > nav > .Contact{
-  grid-column: 1/2;
- }
-.MainContainer > nav > .Subscribe{
-  grid-column: 2/3;
- }
- .ContentContainer > .Receipe1{
 
+ .MainContainer > nav > .Home {
+  grid-column: 1/2;
+ }
+
+ .MainContainer > nav > .Details {
+  grid-column: 2/3;
+ }
+
+ .MainContainer > nav > .Contact {
+  grid-column: 1/2;
+ }
+
+.MainContainer > nav > .Subscribe {
+  grid-column: 2/3;
+ }
+
+ .ContentContainer > .Receipe1 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
-
  }
- .ContentContainer > .Receipe2{
 
+ .ContentContainer > .Receipe2 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
-
  }
 
  .gallery__item--1 {
@@ -41,49 +44,56 @@
   margin: 0;
   padding: 20px;
   }
-  .Description{
+
+  .Description {
     grid-column: 1/ span 9;
     grid-row: 9/ span 9;
     margin: 0;
     padding: 20px;
   }
-  .FooterContainer{
+
+  .FooterContainer {
       position: sticky;
   }
-
 /* About me Page starts here*/
- .about{
+ .about {
   border-left: 2px solid #ddd;
   border-right: 2px solid #ddd;
   margin: 0px;
   padding: 0px;
  }
-.IndianCuisine{
+
+.IndianCuisine {
   margin: 5px;
   padding: 5px;
   display: flex;
   flex-direction:column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
- .IndianSpices{
+
+ .IndianSpices {
   width:100%;
   height:100%;
   object-fit:contain;
-
  }
- .IndianCuisine :nth-child(1){
+
+ .IndianCuisine :nth-child(1) {
   order:-1;
  }
- .IndianCuisine :nth-child(2){
+
+ .IndianCuisine :nth-child(2) {
   order:0;
  }
- .IndianCuisine :nth-child(3){
+
+ .IndianCuisine :nth-child(3) {
   order:2;
  }
- .IndianCuisine :nth-child(4){
+
+ .IndianCuisine :nth-child(4) {
   order:1;
  }
- #history{
+
+ #history {
  font-size: 2em;
  }
 /* About me Page ends here*/
